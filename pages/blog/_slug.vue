@@ -1,8 +1,9 @@
 <template>
-  <article class="mt-12 py-12 px-6 mb-4 md:p-20 leading-relaxed max-w-4xl">
+  <article class="mt-12 py-12 px-6 mb-4 md:p-20 leading-relaxed max-w-4xl bg-white m-auto">
     <nuxt-link class="text-lg hover:underline" to="/blog">&#8592; back to posts</nuxt-link>
     <h1 class="text-4xl font-semibold leading-tight mt-2">{{ article.title }}</h1>
-    <p class="text-gray-700 mb-2">Written by {{article.author}} </br> {{ article.date }}</p>
+    <p class="text-gray-700">Written by {{article.author}}</p>
+    <p class="text-gray-700 mb-2">{{ article.date }}</p>
     <div class="h-56 my-4">
       <img class="object-cover object-center rounded-md h-full w-full" :src="article.img" />
     </div>
@@ -48,7 +49,6 @@ li {
 .medium-zoom-overlay {
   z-index: 1040;
 }
-
 </style>
    
 <script>
@@ -84,6 +84,6 @@ export default {
       const options = { year: "numeric", month: "long", day: "numeric" };
       return new Date(date).toLocaleDateString("en", options);
     }
-  },
+  }
 };
 </script>
