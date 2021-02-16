@@ -34,6 +34,8 @@
 
 <script>
 export default {
+  transition: "fade",
+
   async asyncData({ $content, params }) {
     const articles = await $content("articles", params.slug)
       .only(["title", "description", "img", "date", "slug", "author", "order"])
@@ -51,8 +53,6 @@ export default {
       const options = { year: "numeric", month: "long", day: "numeric" };
       return new Date(date).toLocaleDateString("en", options);
     }
-  },
-
-  transition: "fade"
+  }
 };
 </script>
