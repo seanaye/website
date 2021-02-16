@@ -1,7 +1,7 @@
 <template>
   <!-- container for fixed nav bar -->
-  <div class="py-3 md:py-1 fixed z-20 w-full top-0" ref="navbar">
-    <header class="lg:px-16 px-6 bg-white flex flex-wrap items-center shadow-sm">
+  <div class="fixed z-20 w-full top-0" ref="navbar">
+    <header class="py-3 md:py-1 lg:px-16 px-6 bg-white flex flex-wrap items-center shadow-sm">
       <div class="flex-1 flex justify-between items-center">
         <nuxt-link to="/">
           <h2
