@@ -18,7 +18,7 @@
 </template>
 
 
- <style lang="postcss">
+ <style scoped lang="postcss">
 .nuxt-content h2 {
   font-weight: 600;
   font-size: 28px;
