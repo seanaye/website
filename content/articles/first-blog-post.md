@@ -15,13 +15,13 @@ My first job in Design was by chance. Students throw applications at dozens of c
 ## Design Thinking
 
 At GM, I was exposed to the design thinking framework. At a high level, the goal of design thinking is to continuously put innovators in the shoes of their customers. It ensures that the designer understands the problems users encounter and results in a higher likelihood that the defined problem is actually worth solving.
-<v-img class="my-6 rounded-xl shadow-md zoom data-zoomable" src="/blogImages/designThinking.png" id="zoom-default" alt="Photo"></v-img>
+<v-img class="my-8 rounded-xl shadow-md zoom data-zoomable" src="/blogImages/designThinking.png" id="zoom-default" alt="Photo"></v-img>
 It encourages crazy ideas, and makes users cast the deciding vote on product success. Ultimately, it allows companies to test and validate ideas cheaply, before committing massive amounts of resources to a project.
 
 ## Other Frameworks
 
 Other methods exist to rapidly test ideas. Sprints (shown below), for example, are a common way teams work nowadays. In sprints, teams go through the design process from empathize to test in one week. The goal is, once again, rapid testing and validation.
-<v-img class="my-6 rounded-xl shadow-md zoom data-zoomable" src="/blogImages/sprint.png" alt="Photo"></v-img>
+<v-img class="my-8 rounded-xl shadow-md zoom data-zoomable" src="/blogImages/sprint.png" alt="Photo"></v-img>
 There are many other frameworks that exist. The Lean Startup which is a "build-measure-learn" feedback loop is quite similar. All of these can be combined in an Agile or [insert next buzzword] team. The names don't matter and neither to the exact steps. The importance rings true in most applications that I've been a part of. In sum, find out if your problem is the worth solving, test ideas quickly and cheaply, and once validated, start implementation.
 
 ## User Testing
