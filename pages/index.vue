@@ -1,6 +1,6 @@
 <template>
-  <div class="w-full h-screen relative fade-in p-8 md:p-20 leading-relaxed">
-      <h1 class="font-bold text-5xl mt-12 py-12 px-8 mb-4 md:p-20 2xl:mt-32">Nik Paradis</h1>
+  <div class="w-full h-screen relative fade-in p-6 md:p-20 leading-relaxed">
+      <h1 class="font-bold text-5xl mt-20 md:mt-12 2xl:mt-32">Nik Paradis</h1>
       <div v-if="!isMobile">
         <p class="text-2xl">
           A UX Designer turned PM. I focus on making great experiences happen. I love

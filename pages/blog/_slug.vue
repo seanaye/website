@@ -1,5 +1,5 @@
 <template>
-  <article class="mt-12 md:mt-6 mx-auto mb-4 p-8 md:p-20 max-w-4xl">
+  <article class="mt-12 py-12 px-6 mb-4 md:p-20 leading-relaxed max-w-4xl">
     <nuxt-link class="text-lg hover:underline" to="/blog">&#8592; back to posts</nuxt-link>
     <h1 class="text-4xl font-semibold leading-tight mt-2">{{ article.title }}</h1>
     <p class="text-gray-700 mb-2">Written by {{article.author}} </br> {{ article.date }}</p>
@@ -40,9 +40,6 @@ ol {
 }
 li {
   @apply mb-2;
-}
-article {
-  margin-top: 8rem;
 }
 
 .data-zoomable {

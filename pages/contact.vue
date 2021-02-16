@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-12 py-12 px-8 mb-4 md:p-20 leading-relaxed">
+  <div class="mt-12 py-12 px-6 mb-4 md:p-20 leading-relaxed">
     <h1 class="text-4xl font-semibold">Contact</h1>
     <p class="text-xl leading-relaxed">Let's chat over tea or a cocktail.</p>
 
