@@ -1,28 +1,39 @@
 <template>
   <!-- container for fixed nav bar -->
   <div class="fixed z-20 w-full top-0" ref="navbar">
-    <header class="py-3 md:py-1 lg:px-16 px-6 bg-white flex flex-wrap items-center shadow-sm">
+    <header
+      class="py-2 md:py-1 lg:px-16 px-6 bg-white flex flex-wrap items-center shadow-sm"
+    >
       <div class="flex-1 flex justify-between items-center">
         <nuxt-link to="/">
           <h2
             class="font-medium py-2 lg:p-3 text-xl border-b-2 border-transparent active:border-indigo-400 hover:border-indigo-400"
-          >NP</h2>
+          >
+            NP
+          </h2>
         </nuxt-link>
       </div>
 
-      <label for="menu-toggle" class="cursor-pointer lg:hidden block" @click="onClick">
+      <label
+        for="menu-toggle"
+        class="cursor-pointer lg:hidden block"
+        @click="onClick"
+      >
         <div ref="container"></div>
       </label>
       <input class="hidden" type="checkbox" id="menu-toggle" />
 
       <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
         <nav>
-          <ul class="lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0">
+          <ul
+            class="lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0"
+          >
             <li v-for="nav in navs" :key="nav.to" @click="closeBox">
               <nuxt-link
                 :to="nav.to"
                 class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-600"
-              >{{ nav.text }}</nuxt-link>
+                >{{ nav.text }}</nuxt-link
+              >
             </li>
           </ul>
         </nav>

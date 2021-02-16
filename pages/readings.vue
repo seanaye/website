@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-12 mb-4 p-8 md:p-20 leading-relaxed">
+  <div class="mt-20 md:mt-16 mb-4 p-8 md:p-20 leading-relaxed">
     <h1 class="text-4xl font-semibold">Reading</h1>
     <p class="text-xl leading-relaxed">
       Take a look below for books I've read and my ratings on each. Anything 4+
@@ -8,17 +8,13 @@
     </p>
 
     <div class="md:text-xl my-6">
-      <h2 class="mt-6 text-2xl font-semibold text-indigo-700">
-        Currently Reading
-      </h2>
+      <h2 class="mt-6 text-2xl font-semibold text-indigo-700">Currently Reading</h2>
       <p class="my-4 text-xl">
         Upstream -
         <span class="italic">Dan Heath</span>
       </p>
 
-      <h2 class="mt-6 text-2xl font-semibold text-indigo-700">
-        Finished Reading
-      </h2>
+      <h2 class="mt-6 text-2xl font-semibold text-indigo-700">Finished Reading</h2>
       <p class="my-4 text-xl">
         Hit Refresh -
         <span class="italic">Satya Nadella</span>
@@ -34,9 +30,7 @@
       <p class="my-4 text-xl">
         Shoe Dog -
         <span class="italic">Phil Knight</span>
-        <span class="text-yellow-600"
-          >&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span
-        >
+        <span class="text-yellow-600">&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span>
       </p>
 
       <p class="my-4 text-xl">
@@ -60,9 +54,7 @@
       <p class="my-4 text-xl">
         The Book on Rental Property Investing -
         <span class="italic">Brandon Turner</span>
-        <span class="text-yellow-600"
-          >&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span
-        >
+        <span class="text-yellow-600">&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span>
       </p>
 
       <p class="my-4 text-xl">
@@ -96,7 +88,8 @@
       </p>
 
       <p class="my-4 text-xl">
-        21 Lessons for the 21<sup>st</sup> Century -
+        21 Lessons for the 21
+        <sup>st</sup> Century -
         <span class="italic">Yuval Noah Harari</span>
         &nbsp;&nbsp;&#9733;&#9733;&#9733;
       </p>
@@ -110,9 +103,7 @@
       <p class="my-4 text-xl">
         The Wealthy Barber Returns -
         <span class="italic">David Chilton</span>
-        <span class="text-yellow-600"
-          >&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span
-        >
+        <span class="text-yellow-600">&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span>
       </p>
 
       <p class="my-4 text-xl">
@@ -154,9 +145,7 @@
       <p class="my-4 text-xl">
         I Will Teach You to Be Rich -
         <span class="italic">Ramit Sethi</span>
-        <span class="text-yellow-600"
-          >&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span
-        >
+        <span class="text-yellow-600">&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span>
       </p>
 
       <p class="my-4 text-xl">
@@ -168,9 +157,7 @@
       <p class="my-4 text-xl">
         Seven Fallen Feathers -
         <span class="italic">Tanya Talaga</span>
-        <span class="text-yellow-600"
-          >&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span
-        >
+        <span class="text-yellow-600">&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span>
       </p>
 
       <p class="my-4 text-xl">
@@ -182,9 +169,7 @@
       <p class="my-4 text-xl">
         Bad Blood -
         <span class="italic">John Carrenyrou</span>
-        <span class="text-yellow-600"
-          >&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span
-        >
+        <span class="text-yellow-600">&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span>
       </p>
       <p class="my-4 text-xl">
         The Lean Start Up -
@@ -219,9 +204,7 @@
       <p class="my-4 text-xl">
         Deep Work -
         <span class="italic">Cal Newport</span>
-        <span class="text-yellow-600"
-          >&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span
-        >
+        <span class="text-yellow-600">&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span>
       </p>
 
       <p class="my-4 text-xl">
@@ -239,9 +222,7 @@
       <p class="my-4 text-xl">
         Why We Sleep -
         <span class="italic">Matthew Walker</span>
-        <span class="text-yellow-600"
-          >&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span
-        >
+        <span class="text-yellow-600">&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span>
       </p>
 
       <p class="my-4 text-xl">
@@ -265,9 +246,7 @@
       <p class="my-4 text-xl">
         Wealth, Poverty and Politics -
         <span class="italic">Geoffrey A. Moore</span>
-        <span class="text-yellow-600"
-          >&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span
-        >
+        <span class="text-yellow-600">&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span>
       </p>
 
       <p class="my-4 text-xl">
@@ -303,29 +282,23 @@
       <p class="my-4 text-xl">
         Freakonomics -
         <span class="italic">Steven D. Levitt, Stephen J. Dubner</span>
-        <span class="text-yellow-600"
-          >&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span
-        >
+        <span class="text-yellow-600">&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span>
       </p>
 
       <p class="my-4 text-xl">
         The Intelligent Investor -
-        <span class="italic">Benjamin Graham</span
-        >&nbsp;&nbsp;&#9733;&#9733;&#9733;
+        <span class="italic">Benjamin Graham</span>&nbsp;&nbsp;&#9733;&#9733;&#9733;
       </p>
 
       <p class="my-4 text-xl">
         A Random Walk Down Wall Street -
         <span class="italic">Burton G. Malkiel</span>
-        <span class="text-yellow-600"
-          >&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span
-        >
+        <span class="text-yellow-600">&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span>
       </p>
 
       <p class="my-4 text-xl">
         The Code Book -
-        <span class="italic">Simon Singh</span
-        >&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;
+        <span class="italic">Simon Singh</span>&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;
       </p>
     </div>
   </div>

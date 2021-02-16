@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-12 mb-4 p-8 md:p-20 leading-relaxed">
+  <div class="mt-20 md:mt-16 mb-4 p-8 md:p-20 leading-relaxed">
     <h1 class="text-4xl font-semibold">Blog</h1>
     <p class="text-xl">
       Putting my thoughts down on virtual paper + some of my personal and work
@@ -20,9 +20,7 @@
               />
             </div>
             <div class="py-3 px-6">
-              <h2 class="text-2xl font-semibold leading-snug">
-                {{ article.title }}
-              </h2>
+              <h2 class="text-2xl font-semibold leading-snug">{{ article.title }}</h2>
               <!--<p class="text-gray-700">Written by {{article.author}} </br> -->
               <p>{{ article.date }}</p>
               <p class="mb-2">{{ article.description }}</p>
