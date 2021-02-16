@@ -13,3 +13,10 @@
     opacity: 1;
   }
 }
+
+.data-zoomable {
+  z-index: 1050;
+}
+.medium-zoom-overlay {
+  z-index: 1040;
+}

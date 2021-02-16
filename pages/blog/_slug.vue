@@ -44,13 +44,6 @@ ol {
 li {
   @apply mb-2;
 }
-
-.data-zoomable {
-  z-index: 1050;
-}
-.medium-zoom-overlay {
-  z-index: 1040;
-}
 </style>
    
 <script>
