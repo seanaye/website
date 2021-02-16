@@ -21,7 +21,7 @@ At a high level, the goal of design thinking is to continuously put innovators i
 ## Other Frameworks
 
 Other methods exist to rapidly test ideas. Sprints (shown below), for example, are a common way teams work nowadays. In sprints, teams go through the design process from empathize to test in one week. The goal is, once again, rapid testing and validation.
-<v-img class="my-8 rounded-xl shadow-md zoom my-4 data-zoomable" src="/blogImages/sprint.png" alt="Photo"></v-img>
+<v-img class="my-8 rounded-xl shadow-md zoom my-8 data-zoomable" src="/blogImages/sprint.png" alt="Photo"></v-img>
 There are many other frameworks that exist. The Lean Startup which is a "build-measure-learn" feedback loop is quite similar. All of these can be combined in an Agile or [insert next buzzword] team. The names don't matter and neither to the exact steps. The importance rings true in most applications that I've been a part of. In sum, find out if your problem is the worth solving, test ideas quickly and cheaply, and once validated, start implementation.
 
 ## User Testing
