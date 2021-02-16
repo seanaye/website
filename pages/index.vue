@@ -83,4 +83,13 @@ export default {
   .custom.char.typed {
     color: #4f46e5;
   }
+
+  .fade-enter-active,
+  .fade-leave-active {
+    transition: opacity 0.5s;
+  }
+  .fade-enter,
+  .fade-leave-active {
+    opacity: 0;
+  }
 </style>
