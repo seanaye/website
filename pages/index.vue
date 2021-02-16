@@ -48,7 +48,7 @@
       </a>
 
       <!--projects arrow -->
-      <div class="text-center animate-pulse text-4xl m-auto block mt-40">
+      <div class="text-center animate-pulse text-4xl m-auto block mt-24 md:mt-40 mb-12">
         <nuxt-link to="/blog">&#8594;</nuxt-link>
       </div>
     </div>
