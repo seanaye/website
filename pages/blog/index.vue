@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-20 md:mt-16 mb-4 p-8 md:p-20 leading-relaxed">
+  <div class="mt-12 py-12 px-8 mb-4 md:p-20 leading-relaxed">
     <h1 class="text-4xl font-semibold">Blog</h1>
     <p class="text-xl">
       Putting my thoughts down on virtual paper + some of my personal and work
