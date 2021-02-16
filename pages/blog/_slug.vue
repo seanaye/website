@@ -23,6 +23,8 @@
 .nuxt-content h2 {
   font-weight: 600;
   font-size: 28px;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
 .nuxt-content h3 {
   font-weight: bold;
