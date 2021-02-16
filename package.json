@@ -11,6 +11,7 @@
     "lint": "npm run lint:js"
   },
   "dependencies": {
+    "@netsells/nuxt-hotjar": "^0.1.3",
     "@nuxt/content": "^1.11.1",
     "core-js": "^3.8.2",
     "lottie-web": "^5.7.6",

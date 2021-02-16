@@ -38,6 +38,13 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    [
+      "@netsells/nuxt-hotjar",
+      {
+        id: "1822298",
+        sv: "6"
+      }
+    ],
     // https://go.nuxtjs.dev/content
     "@nuxt/content"
   ],
