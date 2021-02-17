@@ -19,9 +19,9 @@
               :repeat='Infinity'
               :shuffle='false'
               initial-action='typing'
-              :pre-type-delay='70'
+              :pre-type-delay='75'
               :type-delay='100'
-              :pre-erase-delay='1500'
+              :pre-erase-delay='1250'
               :erase-delay='250'
               erase-style='select-all'
               :erase-on-complete='false'
@@ -48,8 +48,10 @@
       </a>
 
       <!--projects arrow -->
-      <div class="text-center animate-pulse text-4xl m-auto block mt-24 md:mt-40 mb-12">
-        <nuxt-link to="/blog">&#8594;</nuxt-link>
+      <div v-if="isMobile">
+        <div class="text-center animate-pulse text-4xl m-auto block mt-24 md:mt-40 mb-12">
+          <nuxt-link to="/blog">&#8594;</nuxt-link>
+        </div>
       </div>
     </div>
 
