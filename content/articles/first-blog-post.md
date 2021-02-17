@@ -40,7 +40,7 @@ Slrrrrrrp. What's that?! Ah, it's just the design process Kool Aid.
 
 You don't always need wireframes. You don't always need personas. You don't always need to follow a cookie cutter process. For those of us in the design world, this might ring a bell.
 
-<span style="background-color: #E0E7FF; font-weight: 600">"Hey team! Please keep in mind that we are designing for Lucy. A 16-year-old, female with eye problems. She loves going to the mall on Saturdays at 10am (they spoke to one person about this). She loves apple products, and she is loyal to brands x y and z."</span>
+> "Hey team! Please keep in mind that we are designing for Lucy. A 16-year-old, female with eye problems. She loves going to the mall on Saturdays at 10am (they spoke to one person about this). She loves apple products, and she is loyal to brands x y and z."
 
 Right thanks! That'll surely influence my design...
 

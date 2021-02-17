@@ -1,5 +1,7 @@
 <template>
-  <div class="mt-12 py-12 px-6 mb-4 md:p-20 leading-relaxed">
+  <div
+    class="mt-12 py-12 px-6 md:p-20 leading-relaxed dark:bg-gray-800 dark:text-white"
+  >
     <h1 class="text-4xl font-semibold">Reading</h1>
     <p class="text-xl leading-relaxed">
       Take a look below for books I've read and my ratings on each. Anything 4+
@@ -7,14 +9,22 @@
       recommendations welcome!
     </p>
 
-    <div class="md:text-xl my-6">
-      <h2 class="mt-6 text-2xl font-semibold text-indigo-700">Currently Reading</h2>
+    <div class="md:text-xl my-6 dark:text-white">
+      <h2
+        class="mt-6 text-2xl font-semibold text-indigo-700 dark:text-indigo-300"
+      >
+        Currently Reading
+      </h2>
       <p class="my-4 text-lg md:text-xl">
         Upstream -
         <span class="italic">Dan Heath</span>
       </p>
 
-      <h2 class="mt-6 text-2xl font-semibold text-indigo-700">Finished Reading</h2>
+      <h2
+        class="mt-6 text-2xl font-semibold text-indigo-700 dark:text-indigo-300"
+      >
+        Finished Reading
+      </h2>
       <p class="my-4 text-lg md:text-xl">
         Hit Refresh -
         <span class="italic">Satya Nadella</span>
@@ -30,7 +40,9 @@
       <p class="my-4 text-lg md:text-xl">
         Shoe Dog -
         <span class="italic">Phil Knight</span>
-        <span class="text-yellow-600">&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+        <span class="text-yellow-600"
+          >&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span
+        >
       </p>
 
       <p class="my-4 text-lg md:text-xl">
@@ -54,7 +66,9 @@
       <p class="my-4 text-lg md:text-xl">
         The Book on Rental Property Investing -
         <span class="italic">Brandon Turner</span>
-        <span class="text-yellow-600">&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+        <span class="text-yellow-600"
+          >&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span
+        >
       </p>
 
       <p class="my-4 text-lg md:text-xl">
@@ -103,7 +117,9 @@
       <p class="my-4 text-lg md:text-xl">
         The Wealthy Barber Returns -
         <span class="italic">David Chilton</span>
-        <span class="text-yellow-600">&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+        <span class="text-yellow-600"
+          >&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span
+        >
       </p>
 
       <p class="my-4 text-lg md:text-xl">
@@ -145,7 +161,9 @@
       <p class="my-4 text-lg md:text-xl">
         I Will Teach You to Be Rich -
         <span class="italic">Ramit Sethi</span>
-        <span class="text-yellow-600">&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+        <span class="text-yellow-600"
+          >&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span
+        >
       </p>
 
       <p class="my-4 text-lg md:text-xl">
@@ -157,7 +175,9 @@
       <p class="my-4 text-lg md:text-xl">
         Seven Fallen Feathers -
         <span class="italic">Tanya Talaga</span>
-        <span class="text-yellow-600">&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+        <span class="text-yellow-600"
+          >&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span
+        >
       </p>
 
       <p class="my-4 text-lg md:text-xl">
@@ -169,7 +189,9 @@
       <p class="my-4 text-lg md:text-xl">
         Bad Blood -
         <span class="italic">John Carrenyrou</span>
-        <span class="text-yellow-600">&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+        <span class="text-yellow-600"
+          >&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span
+        >
       </p>
       <p class="my-4 text-lg md:text-xl">
         The Lean Start Up -
@@ -204,7 +226,9 @@
       <p class="my-4 text-lg md:text-xl">
         Deep Work -
         <span class="italic">Cal Newport</span>
-        <span class="text-yellow-600">&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+        <span class="text-yellow-600"
+          >&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span
+        >
       </p>
 
       <p class="my-4 text-lg md:text-xl">
@@ -222,7 +246,9 @@
       <p class="my-4 text-lg md:text-xl">
         Why We Sleep -
         <span class="italic">Matthew Walker</span>
-        <span class="text-yellow-600">&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+        <span class="text-yellow-600"
+          >&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span
+        >
       </p>
 
       <p class="my-4 text-lg md:text-xl">
@@ -246,7 +272,9 @@
       <p class="my-4 text-lg md:text-xl">
         Wealth, Poverty and Politics -
         <span class="italic">Geoffrey A. Moore</span>
-        <span class="text-yellow-600">&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+        <span class="text-yellow-600"
+          >&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span
+        >
       </p>
 
       <p class="my-4 text-lg md:text-xl">
@@ -282,23 +310,29 @@
       <p class="my-4 text-lg md:text-xl">
         Freakonomics -
         <span class="italic">Steven D. Levitt, Stephen J. Dubner</span>
-        <span class="text-yellow-600">&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+        <span class="text-yellow-600"
+          >&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span
+        >
       </p>
 
       <p class="my-4 text-lg md:text-xl">
         The Intelligent Investor -
-        <span class="italic">Benjamin Graham</span>&nbsp;&nbsp;&#9733;&#9733;&#9733;
+        <span class="italic">Benjamin Graham</span
+        >&nbsp;&nbsp;&#9733;&#9733;&#9733;
       </p>
 
       <p class="my-4 text-lg md:text-xl">
         A Random Walk Down Wall Street -
         <span class="italic">Burton G. Malkiel</span>
-        <span class="text-yellow-600">&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+        <span class="text-yellow-600"
+          >&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;&#9733;</span
+        >
       </p>
 
       <p class="my-4 text-lg md:text-xl">
         The Code Book -
-        <span class="italic">Simon Singh</span>&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;
+        <span class="italic">Simon Singh</span
+        >&nbsp;&nbsp;&#9733;&#9733;&#9733;&#9733;
       </p>
     </div>
   </div>

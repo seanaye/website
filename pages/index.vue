@@ -1,11 +1,23 @@
 <template>
-  <div class="w-full h-screen relative fade-in p-6 md:p-20 leading-relaxed">
-      <h1 class="font-bold text-5xl mt-20 md:mt-12 2xl:mt-32">Nik Paradis</h1>
+  <div class="w-full h-screen relative fade-in p-6 md:p-20 leading-relaxed dark:bg-gray-800 dark:text-white">
+      <h1 class="font-bold text-5xl mt-20 md:mt-12 2xl:mt-32 mb-6">Nik Paradis</h1>
       <div v-if="!isMobile">
         <p class="text-2xl">
           A UX Designer turned PM. I focus on making great experiences happen. I love
           <client-only>
-            <vue-typer class="text-2xl" :text="textData" :type-delay="150" />
+             <vue-typer class="text-2xl"
+              :text='["Books.","Bitcoin.","Board Games."]'
+              :repeat='Infinity'
+              :shuffle='false'
+              initial-action='typing'
+              :pre-type-delay='75'
+              :type-delay='100'
+              :pre-erase-delay='1200'
+              :erase-delay='250'
+              erase-style='select-all'
+              :erase-on-complete='false'
+              caret-animation='blink'
+            ></vue-typer>
           </client-only>
         </p>
       </div>
@@ -21,7 +33,7 @@
               initial-action='typing'
               :pre-type-delay='75'
               :type-delay='100'
-              :pre-erase-delay='1250'
+              :pre-erase-delay='1000'
               :erase-delay='250'
               erase-style='select-all'
               :erase-on-complete='false'
@@ -47,14 +59,16 @@
         </button>
       </a>
 
-      <!--projects arrow -->
-      <div v-if="isMobile">
+   <!-- This is an example component -->
+
+
+    <!--  <div v-if="isMobile">
         <div class="text-center animate-pulse text-4xl m-auto block mt-24 md:mt-40 mb-12">
           <nuxt-link to="/blog">&#8594;</nuxt-link>
         </div>
-      </div>
-    </div>
+      </div> -->
 
+  </div>
 </template>
 <script>
 export default {
@@ -65,8 +79,7 @@ export default {
   },
   data() {
     return {
-      isMobile: false,
-      textData: ["Books.", "Bitcoin.", "Board Games."]
+      isMobile: false
     };
   },
   mounted() {
@@ -77,14 +90,19 @@ export default {
       this.isMobile = w < 750;
     });
   }
+  
 };
 </script>
 
 <style>
+
   .vue-typer,
   .custom.char.typed {
     color: #4f46e5;
   }
+   .custom.char.typed.dark {
+     color: #7C3AED 
+   }
 
   .fade-enter-active,
   .fade-leave-active {
