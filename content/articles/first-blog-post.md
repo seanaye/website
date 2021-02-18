@@ -58,7 +58,7 @@ Quantifying design can be hard. If you have a travel app with the goal of gettin
 
 One million destinations could be selected with no one using the product as intended. Often, I see the amount of button clicks or page views be measure of success, but realistically, the goal is to convert users to booking trips. Having 50 users and 5 booked trips is far better than 100,000 users and 0 booked trips. The answer is the second metric.
 
-<span style="background-color: #E0E7FF; font-weight: 600">Your design metrics should line up with product metrics. Focus on the goal of the product, not the micro-interactions. </span>
+> Your design metrics should line up with product metrics. Focus on the goal of the product, not the micro-interactions.
 
 This isn't to say random metrics can be useful to track. They can reveal interesting patterns in user behaviour. However, they shouldn't be used as a guiding light for your product.
 

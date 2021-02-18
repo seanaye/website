@@ -1,9 +1,9 @@
 <template>
   <div
-    class="mt-12 py-12 px-6 md:p-20 leading-relaxed dark:bg-gray-800 dark:text-white"
+    class="py-16 px-6 md:p-20 leading-relaxed dark:bg-gray-800 dark:text-white min-h-screen"
   >
-    <h1 class="text-4xl font-semibold">Reading</h1>
-    <p class="text-xl leading-relaxed">
+    <h1 class="text-4xl font-semibold mb-2 mt-12">Reading</h1>
+    <p class="text-xl leading-relaxed mb-8">
       Take a look below for books I've read and my ratings on each. Anything 4+
       stars I would reccommend to a friend. I love almost anything non-fiction,
       recommendations welcome!

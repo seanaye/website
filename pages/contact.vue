@@ -1,9 +1,11 @@
 <template>
   <div
-    class="mt-12 py-12 px-6 md:p-20 leading-relaxed dark:bg-gray-800 dark:text-white min-h-screen"
+    class="py-16 px-6 md:p-20 leading-relaxed dark:bg-gray-800 dark:text-white min-h-screen"
   >
-    <h1 class="text-4xl font-semibold">Contact</h1>
-    <p class="text-xl leading-relaxed">Let's chat over tea or a cocktail.</p>
+    <h1 class="text-4xl font-semibold mb-2 mt-12">Contact</h1>
+    <p class="text-xl mb-8 leading-relaxed">
+      Let's chat over tea or a cocktail.
+    </p>
 
     <!-- new person -->
     <div

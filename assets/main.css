@@ -13,8 +13,3 @@
 .medium-zoom-overlay {
   z-index: 1040;
 }
-
-:root {
-  --primary-light: #4f46e5;
-  --primary-dark: #a78bfa;
-}

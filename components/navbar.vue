@@ -4,11 +4,17 @@
     <header
       class="py-2 md:py-1 lg:px-16 px-6 bg-white flex flex-wrap items-center shadow-md md:shadow-sm dark:bg-gray-800"
     >
-      <div class="flex-1 flex justify-between items-center">
-        <nuxt-link to="/">
-          <h2
-            class="dark:text-white font-medium py-2 lg:p-3 text-xl border-b-2 border-transparent active:border-indigo-400 hover:border-indigo-400"
-          >
+      <div
+        @click="closeBox"
+        class="flex-1 flex justify-between items-center dark:text-white"
+      >
+        <nuxt-link
+          to="/"
+          exact
+          active-class="text-indigo-600 dark:text-indigo-300"
+          class="font-medium lg:p-4 md:my-0 py-3 block border-b-2 text-xl border-transparent hover:border-indigo-400"
+        >
+          <h2>
             NP
           </h2>
         </nuxt-link>
@@ -30,6 +36,7 @@
           >
             <li v-for="nav in navs" :key="nav.to" @click="closeBox">
               <nuxt-link
+                active-class="text-indigo-600 dark:text-indigo-300"
                 :to="nav.to"
                 class="lg:p-4 my-6 md:my-0 py-3 block border-b-2 text-xl border-transparent hover:border-indigo-400"
                 >{{ nav.text }}</nuxt-link
@@ -65,7 +72,10 @@ export default {
       renderer: "svg",
       loop: false,
       autoplay: false,
-      animationData
+      animationData,
+      rendererSettings: {
+        className: "svgImage"
+      }
     });
     this.anim.setSpeed(2);
     this.anim.addEventListener("complete", () => {
@@ -99,7 +109,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="postcss">
 #menu-toggle:checked + #menu {
   display: block;
 }
@@ -124,7 +134,7 @@ html {
   }
 }
 
-a.nuxt-link-exact-active {
-  color: #4f46e5;
+.dark .svgImage {
+  filter: invert(1);
 }
 </style>

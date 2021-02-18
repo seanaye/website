@@ -1,8 +1,8 @@
 <template>
   <article
-    class="mt-12 py-12 px-6 md:p-20 w-full leading-relaxed bg-white dark:bg-gray-800 dark:text-white"
+    class="py-16 px-6 md:p-20 w-full leading-relaxed bg-white dark:bg-gray-800 dark:text-white min-h-screen"
   >
-    <div class="max-w-4xl m-auto">
+    <div class="max-w-4xl m-auto mt-12">
       <nuxt-link class="text-lg hover:underline" to="/blog"
         >&#8592; back to posts</nuxt-link
       >
@@ -22,8 +22,8 @@
       <nuxt-content class="leading-relaxed list-decimal" :document="article" />
       <applause-button
         multiclap="true"
+        color="#7c3aed"
         class="mt-12 mb-6 mx-auto"
-        color="#4F46E5"
         style="width: 58px; height: 58px;"
       />
       <prev-next class="mt-4 text-xl" :prev="prev" :next="next" />
@@ -31,7 +31,7 @@
   </article>
 </template>
 
-<style scoped lang="postcss">
+<style lang="postcss">
 .nuxt-content h2 {
   font-weight: 600;
   font-size: 28px;
@@ -46,22 +46,39 @@
   margin-bottom: 20px;
   font-size: 22px;
 }
-blockquote {
-  @apply m-3;
-  @apply p-4;
-  @apply rounded-md;
-  @apply bg-indigo-600;
-  @apply text-white;
+
+.nuxt-content blockquote {
+  @apply my-16;
+  @apply mx-2;
+  @apply px-6;
+  @apply py-2;
+  @apply border-l-8;
+  @apply italic;
+  @apply border-indigo-600;
+}
+.nuxt-content blockquote p {
+  margin-bottom: 0px;
 }
 
-ol {
+.dark .nuxt-content blockquote {
+  @apply border-indigo-300;
+}
+
+.nuxt-content ol {
   @apply text-xl;
   @apply list-inside;
   @apply ml-2;
   @apply mb-4;
 }
-li {
+.nuxt-content li {
   @apply mb-2;
+  @apply list-decimal;
+}
+
+.dark applause-button .style-root {
+  stroke: #c4b5fd !important;
+  fill: #c4b5fd !important;
+  color: #c4b5fd !important;
 }
 </style>
 
