@@ -1,3 +1,4 @@
+console.log("I am running!");
 if (
   localStorage.theme === "dark" ||
   (!("theme" in localStorage) &&
